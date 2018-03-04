@@ -2,10 +2,11 @@ class Dog
   attr_accessor :name, :breed, :age
 
   @@all = []
-  def initialize(name="rudolph", breed="mastiff", age=2)
+  def initialize(name, breed, age)
     @name = name
     @bredd = breed
     @age = age
+    @dog = ["rudolph","mastiff", 2]
   end
   def self.all
     @@all
