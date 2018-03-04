@@ -6,7 +6,7 @@ class Dog
     @name = name
     @breed = breed
     @age = age
-    @dog = ["rudolph","mastiff", 2]
+    @@all = ["rudolph","mastiff", 2]
   end
   def self.all
     @@all
